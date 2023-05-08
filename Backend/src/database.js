@@ -6,7 +6,7 @@
 import mongoose from 'mongoose';
 import User from './User.js';
 import Post from './Post.js';
-mongoose.connect("mongodb+srv://yangqingyun:yangqingyun@cluster0.jfjwpvr.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://qny2:13ZWbPWiJyC26IEW@cluster0.k6n4zjx.mongodb.net/?retryWrites=true&w=majority")
 //mongo.connect()
 
 const addPost = async(user_name, start_date, end_date, price, description, email, city, state, zipCode)=>{
